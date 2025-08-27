@@ -11,3 +11,8 @@ if __name__ == '__main__':
     prompt = f"'{question}'에 대해 설명해 줘."
 
     test(prompt)
+
+
+
+
+

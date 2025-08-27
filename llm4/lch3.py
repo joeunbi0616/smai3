@@ -5,7 +5,7 @@ if __name__ == '__main__':
     openllm = getOpenAI()
     genllm = getGenAI()
 
-    cc = ConversationChain(llm=openllm, verbose=True)
+    cc = ConversationChain(llm=openllm, verbose=False)
 
     while True:
         txt = input("입력하세요:")
@@ -14,5 +14,6 @@ if __name__ == '__main__':
         print(cc.predict(input=txt))
 
     print("Bye.....")
+
 
 

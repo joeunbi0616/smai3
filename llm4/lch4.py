@@ -11,8 +11,10 @@ if __name__ == '__main__':
         tools,
         openllm,
         agent  =  AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-        verbose=False
+        verbose=False,
+        handle_parsing_errors=True
     )
 
-    txt = "귀멸의 칼날 영화 주연이 누구야? 2025년 8월25일 기준으로 개봉 이후 몇개월이 지났어? 한국어로 답해줘"
+    txt = "갤럭시 s25 스펙은?"
     print(agent.run(txt))
+

@@ -21,7 +21,7 @@ if st.button("SEND"):
 
         with open("img/"+name, "rb") as file:
             st.download_button(
-                label="Download image",
+                label=f"Download image: {name}",
                 data=file,
                 file_name="img/" + name,
                 mime="image/png",

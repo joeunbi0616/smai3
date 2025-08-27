@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-from MyLLM import save_carpturefile, geminiModel, progressBar
 
 # Sidebar
 st.sidebar.markdown("Clicked Page 5")
